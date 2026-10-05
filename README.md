@@ -99,7 +99,7 @@ The objective is to understand **how Python works, why it works, and when to use
 # 📚 Repository Structure
 
 ```text
-01_Python_Programming/
+Python_Programming/
 │
 ├── README.md
 │
@@ -130,20 +130,19 @@ The objective is to understand **how Python works, why it works, and when to use
 ├── 25_Debugging/
 ├── 26_Testing/
 │
-├── 27_Python_for_DSA/
-├── 28_Python_for_Backend/
-├── 29_Python_for_DevOps/
-├── 30_Python_for_Automation/
+├── Python_for_DSA/
+├── Python_for_Backend/
+├── Python_for_DevOps/
+├── Python_for_Automation/
+├── Python_for_Data_Science/
+├── Python_for_AI/
+├── Python_for_Machine_Learning/
+├── Python_for_Deep_Learning/
 │
-├── 31_Python_for_Data_Science/
-├── 32_Python_for_AI/
-├── 33_Python_for_Machine_Learning/
-├── 34_Python_for_Deep_Learning/
-│
-├── 35_Python_Design_Patterns/
-├── 36_Python_Best_Practices/
-├── 37_Python_Interview_Preparation/
-└── 38_Python_Projects/
+├── Python_Design_Patterns/
+├── Python_Best_Practices/
+├── Python_Interview_Preparation/
+└── Python_Projects/
 ```
 
 ---
