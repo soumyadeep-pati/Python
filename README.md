@@ -130,19 +130,19 @@ Python_Programming/
 ├── 25_Debugging/
 ├── 26_Testing/
 │
-├── Python_for_DSA/
-├── Python_for_Backend/
-├── Python_for_DevOps/
-├── Python_for_Automation/
-├── Python_for_Data_Science/
-├── Python_for_AI/
-├── Python_for_Machine_Learning/
-├── Python_for_Deep_Learning/
+├── DSA/
+├── Backend/
+├── DevOps/
+├── Automation/
+├── Data_Science/
+├── AI/
+├── Machine_Learning/
+├── Deep_Learning/
 │
-├── Python_Design_Patterns/
-├── Python_Best_Practices/
-├── Python_Interview_Preparation/
-└── Python_Projects/
+├── Design_Patterns/
+├── Best_Practices/
+├── Interview_Preparation/
+└── Projects/
 ```
 
 ---
