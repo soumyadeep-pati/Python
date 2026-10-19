@@ -111,8 +111,7 @@ Python Programming
 │
 ├── Core Python
 │   ├── Data Structures
-│   ├── DSA and Algorithmic Problem Solving
-│   ├── Functions
+│   └── Functions
 │   ├── Modules
 │   ├── Packages
 │   ├── File Handling
@@ -213,59 +212,61 @@ Python_Programming/
 │
 ├── 05_Data_Structures/
 │
-├── 06_Functions/
+├── 06_Data_Structures_and_Algorithms/
 │
-├── 07_Modules_and_Packages/
+├── 07_Functions/
 │
-├── 08_File_Handling/
+├── 08_Modules_and_Packages/
 │
-├── 09_Exception_Handling/
+├── 09_File_Handling/
 │
-├── 10_Object_Oriented_Programming/
+├── 10_Exception_Handling/
 │
-├── 11_Iterators_and_Generators/
+├── 11_Object_Oriented_Programming/
 │
-├── 12_Decorators/
+├── 12_Iterators_and_Generators/
 │
-├── 13_Context_Managers/
+├── 13_Decorators/
 │
-├── 14_Functional_Programming/
+├── 14_Context_Managers/
 │
-├── 15_Type_Hints/
+├── 15_Functional_Programming/
 │
-├── 16_Dataclasses/
+├── 16_Type_Hints/
 │
-├── 17_Regular_Expressions/
+├── 17_Dataclasses/
 │
-├── 18_Standard_Library/
+├── 18_Regular_Expressions/
 │
-├── 19_Concurrency/
+├── 19_Standard_Library/
 │
-├── 20_Multiprocessing/
+├── 20_Concurrency/
 │
-├── 21_Async_Programming/
+├── 21_Multiprocessing/
 │
-├── 22_Memory_Management/
+├── 22_Async_Programming/
 │
-├── 23_Performance_Optimization/
+├── 23_Memory_Management/
 │
-├── 24_Python_Internals/
+├── 24_Performance_Optimization/
 │
-├── 25_Debugging/
+├── 25_Python_Internals/
 │
-├── 26_Testing/
+├── 26_Debugging/
 │
-├── 27_Python_Backend/
+├── 27_Testing/
 │
-├── 28_Design_Patterns/
+├── 28_Python_Backend/
 │
-├── 29_Best_Practices/
+├── 29_Design_Patterns/
 │
-├── 30_Technical_Reference/
+├── 30_Best_Practices/
 │
-├── 31_Python_Projects/
+├── 31_Technical_Reference/
 │
-└── 32_Data_Structures_and_Algorithms/
+├── 32_Python_Projects/
+│
+└── 33_Data_Structures_and_Algorithms/
 ```
 
 ---
@@ -369,7 +370,60 @@ Topics include:
 
 ---
 
-## 06 — Functions
+## 07 — Data Structures and Algorithms (DSA)
+
+This section focuses on implementing data structures, solving algorithmic problems, and
+developing problem-solving skills using Python. It complements the built-in data
+structures covered in **05_Data_Structures** by emphasizing algorithm design,
+implementation, and complexity analysis.
+
+Suggested structure:
+
+```text
+32_Data_Structures_and_Algorithms/
+│
+├── 01_Complexity_Analysis/
+├── 02_Arrays_and_Strings/
+├── 03_Linked_Lists/
+├── 04_Stacks_and_Queues/
+├── 05_Recursion_and_Backtracking/
+├── 06_Searching_and_Sorting/
+├── 07_Hash_Tables/
+├── 08_Trees/
+├── 09_Heaps_and_Priority_Queues/
+├── 10_Graphs/
+├── 11_Greedy_Algorithms/
+├── 12_Dynamic_Programming/
+└── 13_Problem_Solving_Practice/
+```
+
+Topics include:
+
+- Time and space complexity
+- Big-O, Big-Theta, and Big-Omega notation
+- Arrays and strings
+- Linked lists
+- Stacks and queues
+- Recursion and backtracking
+- Searching and sorting algorithms
+- Hash tables
+- Trees and binary search trees
+- Heaps and priority queues
+- Graph representations and traversals
+- Greedy algorithms
+- Dynamic programming
+- Problem-solving patterns and practice
+
+Each topic should include explanations, Python implementations, complexity analysis,
+practice problems, and tests where appropriate.
+
+---
+
+---
+
+---
+
+## 07 — Functions
 
 Understanding functions as reusable units of computation.
 
@@ -391,7 +445,7 @@ Topics include:
 
 ---
 
-## 07 — Modules and Packages
+## 08 — Modules and Packages
 
 Understanding Python's modular programming system.
 
@@ -410,7 +464,7 @@ Topics include:
 
 ---
 
-## 08 — File Handling
+## 09 — File Handling
 
 Working with files and external data.
 
@@ -431,7 +485,7 @@ Topics include:
 
 ---
 
-## 09 — Exception Handling
+## 10 — Exception Handling
 
 Understanding errors and exception management.
 
@@ -451,7 +505,7 @@ Topics include:
 
 ---
 
-## 10 — Object-Oriented Programming
+## 11 — Object-Oriented Programming
 
 Understanding object-oriented programming using Python.
 
@@ -474,7 +528,7 @@ Topics include:
 
 ---
 
-## 11 — Iterators and Generators
+## 12 — Iterators and Generators
 
 Understanding Python's iteration model.
 
@@ -492,7 +546,7 @@ Topics include:
 
 ---
 
-## 12 — Decorators
+## 13 — Decorators
 
 Understanding decorators and function transformation.
 
@@ -508,7 +562,7 @@ Topics include:
 
 ---
 
-## 13 — Context Managers
+## 14 — Context Managers
 
 Managing resources safely and predictably.
 
@@ -524,7 +578,7 @@ Topics include:
 
 ---
 
-## 14 — Functional Programming
+## 15 — Functional Programming
 
 Understanding functional programming concepts in Python.
 
@@ -542,7 +596,7 @@ Topics include:
 
 ---
 
-## 15 — Type Hints
+## 16 — Type Hints
 
 Writing explicit and maintainable type information.
 
@@ -561,7 +615,7 @@ Topics include:
 
 ---
 
-## 16 — Dataclasses
+## 17 — Dataclasses
 
 Using dataclasses for structured data objects.
 
@@ -577,7 +631,7 @@ Topics include:
 
 ---
 
-## 17 — Regular Expressions
+## 18 — Regular Expressions
 
 Pattern matching and text processing.
 
@@ -597,7 +651,7 @@ Topics include:
 
 ---
 
-## 18 — Standard Library
+## 19 — Standard Library
 
 Understanding Python's built-in ecosystem.
 
@@ -624,7 +678,7 @@ Topics include:
 
 ---
 
-## 19 — Concurrency
+## 20 — Concurrency
 
 Understanding concurrent execution in Python.
 
@@ -642,7 +696,7 @@ Topics include:
 
 ---
 
-## 20 — Multiprocessing
+## 21 — Multiprocessing
 
 Understanding process-based parallelism.
 
@@ -659,7 +713,7 @@ Topics include:
 
 ---
 
-## 21 — Async Programming
+## 22 — Async Programming
 
 Understanding asynchronous programming.
 
@@ -679,7 +733,7 @@ Topics include:
 
 ---
 
-## 22 — Memory Management
+## 23 — Memory Management
 
 Understanding how Python manages memory.
 
@@ -696,7 +750,7 @@ Topics include:
 
 ---
 
-## 23 — Performance Optimization
+## 24 — Performance Optimization
 
 Writing efficient Python programs.
 
@@ -716,7 +770,7 @@ Topics include:
 
 ---
 
-## 24 — Python Internals
+## 25 — Python Internals
 
 Understanding how Python works internally.
 
@@ -737,7 +791,7 @@ Topics include:
 
 ---
 
-## 25 — Debugging
+## 26 — Debugging
 
 Developing systematic debugging skills.
 
@@ -756,7 +810,7 @@ Topics include:
 
 ---
 
-## 26 — Testing
+## 27 — Testing
 
 Writing reliable and maintainable Python software.
 
@@ -1122,57 +1176,6 @@ Projects may include:
 - Developer tools
 - System utilities
 - Production-style backend services
-
----
-
-# 🧠 32 — Data Structures and Algorithms (DSA)
-
-This section focuses on implementing data structures, solving algorithmic problems, and
-developing problem-solving skills using Python. It complements the built-in data
-structures covered in **05_Data_Structures** by emphasizing algorithm design,
-implementation, and complexity analysis.
-
-Suggested structure:
-
-```text
-32_Data_Structures_and_Algorithms/
-│
-├── 01_Complexity_Analysis/
-├── 02_Arrays_and_Strings/
-├── 03_Linked_Lists/
-├── 04_Stacks_and_Queues/
-├── 05_Recursion_and_Backtracking/
-├── 06_Searching_and_Sorting/
-├── 07_Hash_Tables/
-├── 08_Trees/
-├── 09_Heaps_and_Priority_Queues/
-├── 10_Graphs/
-├── 11_Greedy_Algorithms/
-├── 12_Dynamic_Programming/
-└── 13_Problem_Solving_Practice/
-```
-
-Topics include:
-
-- Time and space complexity
-- Big-O, Big-Theta, and Big-Omega notation
-- Arrays and strings
-- Linked lists
-- Stacks and queues
-- Recursion and backtracking
-- Searching and sorting algorithms
-- Hash tables
-- Trees and binary search trees
-- Heaps and priority queues
-- Graph representations and traversals
-- Greedy algorithms
-- Dynamic programming
-- Problem-solving patterns and practice
-
-Each topic should include explanations, Python implementations, complexity analysis,
-practice problems, and tests where appropriate.
-
----
 
 ---
 
