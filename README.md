@@ -16,6 +16,7 @@ This repository is designed as a complete Python learning and reference journey 
 - Operators and expressions
 - Control flow
 - Data structures
+- Data structures and algorithms (DSA)
 - Functions
 - Modules and packages
 - File handling
@@ -91,6 +92,7 @@ By completing this repository, the goal is to be able to:
 16. Use Python effectively for automation and DevOps tasks.
 17. Build real-world Python projects.
 18. Develop a strong professional Python foundation.
+19. Solve algorithmic problems using Python and analyze their time and space complexity.
 
 ---
 
@@ -109,11 +111,25 @@ Python Programming
 │
 ├── Core Python
 │   ├── Data Structures
+│   ├── DSA and Algorithmic Problem Solving
 │   ├── Functions
 │   ├── Modules
 │   ├── Packages
 │   ├── File Handling
 │   └── Exception Handling
+│
+├── Data Structures and Algorithms (DSA)
+│   ├── Complexity Analysis
+│   ├── Arrays and Strings
+│   ├── Linked Lists
+│   ├── Stacks and Queues
+│   ├── Recursion and Backtracking
+│   ├── Searching and Sorting
+│   ├── Hash Tables
+│   ├── Trees and Heaps
+│   ├── Graphs
+│   ├── Greedy Algorithms
+│   └── Dynamic Programming
 │
 ├── Object-Oriented Python
 │   ├── Classes
@@ -247,7 +263,9 @@ Python_Programming/
 │
 ├── 30_Technical_Reference/
 │
-└── 31_Python_Projects/
+├── 31_Python_Projects/
+│
+└── 32_Data_Structures_and_Algorithms/
 ```
 
 ---
@@ -1107,6 +1125,57 @@ Projects may include:
 
 ---
 
+# 🧠 32 — Data Structures and Algorithms (DSA)
+
+This section focuses on implementing data structures, solving algorithmic problems, and
+developing problem-solving skills using Python. It complements the built-in data
+structures covered in **05_Data_Structures** by emphasizing algorithm design,
+implementation, and complexity analysis.
+
+Suggested structure:
+
+```text
+32_Data_Structures_and_Algorithms/
+│
+├── 01_Complexity_Analysis/
+├── 02_Arrays_and_Strings/
+├── 03_Linked_Lists/
+├── 04_Stacks_and_Queues/
+├── 05_Recursion_and_Backtracking/
+├── 06_Searching_and_Sorting/
+├── 07_Hash_Tables/
+├── 08_Trees/
+├── 09_Heaps_and_Priority_Queues/
+├── 10_Graphs/
+├── 11_Greedy_Algorithms/
+├── 12_Dynamic_Programming/
+└── 13_Problem_Solving_Practice/
+```
+
+Topics include:
+
+- Time and space complexity
+- Big-O, Big-Theta, and Big-Omega notation
+- Arrays and strings
+- Linked lists
+- Stacks and queues
+- Recursion and backtracking
+- Searching and sorting algorithms
+- Hash tables
+- Trees and binary search trees
+- Heaps and priority queues
+- Graph representations and traversals
+- Greedy algorithms
+- Dynamic programming
+- Problem-solving patterns and practice
+
+Each topic should include explanations, Python implementations, complexity analysis,
+practice problems, and tests where appropriate.
+
+---
+
+---
+
 # 🌍 Applications of Python
 
 Python is used across a wide range of technical domains.
@@ -1243,7 +1312,8 @@ Python
 │   ├── Data Structures
 │   ├── Functions
 │   ├── OOP
-│   └── Modules
+│   ├── Modules
+│   └── Data Structures and Algorithms
 │
 ├── Runtime
 │   ├── Execution Model
@@ -1500,32 +1570,33 @@ The recommended order for studying this repository is:
 03  Operators and Expressions
 04  Control Flow
 05  Data Structures
-06  Functions
-07  Modules and Packages
-08  File Handling
-09  Exception Handling
-10  Object-Oriented Programming
-11  Iterators and Generators
-12  Decorators
-13  Context Managers
-14  Functional Programming
-15  Type Hints
-16  Dataclasses
-17  Regular Expressions
-18  Standard Library
-19  Concurrency
-20  Multiprocessing
-21  Async Programming
-22  Memory Management
-23  Performance Optimization
-24  Python Internals
-25  Debugging
-26  Testing
-27  Python Backend
-28  Design Patterns
-29  Best Practices
-30  Technical Reference
-31  Python Projects
+06  Data Structures and Algorithms (DSA)
+07  Functions
+08  Modules and Packages
+09  File Handling
+10  Exception Handling
+11  Object-Oriented Programming
+12  Iterators and Generators
+13  Decorators
+14  Context Managers
+15  Functional Programming
+16  Type Hints
+17  Dataclasses
+18  Regular Expressions
+19  Standard Library
+20  Concurrency
+21  Multiprocessing
+22  Async Programming
+23  Memory Management
+24  Performance Optimization
+25  Python Internals
+26  Debugging
+27  Testing
+28  Python Backend
+29  Design Patterns
+30  Best Practices
+31  Technical Reference
+32  Python Projects
 ```
 
 ---
